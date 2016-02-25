@@ -1,0 +1,26 @@
+name: RiversideCore
+version: 1.0.0-DEVELOPMENT-SNAPSHOT
+main: com.gmail.gogobebe2.riversidecore.Main
+description: Custom plugin for the Riverside server with core commands.
+author: William Bryant (gogobebe2)
+website: gogobebe2@gmail.com
+depend: [Vault]
+commands:
+  fixhand:
+  fixall:
+  clearchat:
+  mutechat:
+  report:
+permissions:
+  riverside.fixhand:
+    default: op
+  riverside.fixall:
+    default: op
+  riverside.clearchat:
+    default: op
+  riverside.mutechat:
+    default: op
+  riverside.report:
+    default: op
+  riverside.report.view:
+    default: op
